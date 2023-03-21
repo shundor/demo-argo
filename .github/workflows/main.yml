@@ -76,7 +76,7 @@ jobs:
       id: push-image
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-        ECR_REPOSITORY: gitops-argocd
+        ECR_REPOSITORY: ${{ secrets.ECR_REPOSITORY_NAME }}
 
       run: |
         echo "Pushing image to ECR..."
