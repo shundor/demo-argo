@@ -1,20 +1,5 @@
 
-987508290655.dkr.ecr.us-east-1.amazonaws.com/argocd-demo:main-35b8f62 (alpine 3.17.2)
+987508290655.dkr.ecr.us-east-1.amazonaws.com/argocd-demo:main-c7a7e19 (alpine 3.17.2)
 =====================================================================================
-Total: 4 (HIGH: 2, CRITICAL: 2)
+Total: 0 (HIGH: 0, CRITICAL: 0)
 
-┌─────────┬────────────────┬──────────┬───────────────────┬───────────────┬───────────────────────────────────────────────────────┐
-│ Library │ Vulnerability  │ Severity │ Installed Version │ Fixed Version │                         Title                         │
-├─────────┼────────────────┼──────────┼───────────────────┼───────────────┼───────────────────────────────────────────────────────┤
-│ curl    │ CVE-2023-23914 │ CRITICAL │ 7.87.0-r1         │ 7.87.0-r2     │ curl: HSTS ignored on multiple requests               │
-│         │                │          │                   │               │ https://avd.aquasec.com/nvd/cve-2023-23914            │
-│         ├────────────────┼──────────┤                   │               ├───────────────────────────────────────────────────────┤
-│         │ CVE-2023-23916 │ HIGH     │                   │               │ curl: HTTP multi-header compression denial of service │
-│         │                │          │                   │               │ https://avd.aquasec.com/nvd/cve-2023-23916            │
-├─────────┼────────────────┼──────────┤                   │               ├───────────────────────────────────────────────────────┤
-│ libcurl │ CVE-2023-23914 │ CRITICAL │                   │               │ curl: HSTS ignored on multiple requests               │
-│         │                │          │                   │               │ https://avd.aquasec.com/nvd/cve-2023-23914            │
-│         ├────────────────┼──────────┤                   │               ├───────────────────────────────────────────────────────┤
-│         │ CVE-2023-23916 │ HIGH     │                   │               │ curl: HTTP multi-header compression denial of service │
-│         │                │          │                   │               │ https://avd.aquasec.com/nvd/cve-2023-23916            │
-└─────────┴────────────────┴──────────┴───────────────────┴───────────────┴───────────────────────────────────────────────────────┘
